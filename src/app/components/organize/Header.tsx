@@ -4,8 +4,8 @@ import Link from "next/link";
 function Header() {
   return (
     <section className="flex w-[full] justify-around items-center ">
-      <div className="flex justify-around  items-center w-[1650px] h-16 p-2 ">
-        <div className=" gap-3 p-2  flex justify-around items-center w-[240px] h-[50px] bg-white rounded-md">
+      <div className="flex justify-evenly  items-center w-[1600px] gap-10 h-16 p-2 ">
+        <div className=" gap-3 p-2  flex justify-around items-center w-[220px] h-[50px] bg-white rounded-md">
           <Image src="/icon/cart.png" alt="Log" width={25} height={25} />|
           <Link
             href="/login"
@@ -15,7 +15,7 @@ function Header() {
             <Image src="/img/log.svg" alt="Log" width={25} height={25} />
           </Link>
         </div>
-        <div className="flex justify-around gap-3 items-center rounded-md">
+        <div className="flex justify-around gap-3 items-center rounded-md w-[700px]">
           <form
             action=""
             className="flex flex-end items-center  justify-center gap-2 p-2 bg-slate-100 h-[45px] rounded-md text-black "

@@ -3,13 +3,13 @@ import Image from "next/image";
 import Link from "next/link";
 function Navbar() {
   return (
-    <div className="flex h-[40px]  w-[full] items-center justify-center gap-1">
-      <div className="flex justify-center items-center w-[230px] mr-5 h-[40px] rounded-lg pl-[140px]  ">
+    <div className="flex h-[40px]  w-[full] items-center justify-center ">
+      <div className="flex justify-center items-center  w-[240px]   h-[40px] rounded-lg   ">
         <Link
           href=""
-          className=" flex min-w-[240px] max-w-[350px] h-[40px] gap-3 p-2 border rounded-lg"
+          className=" flex min-w-[240px] max-w-[350px] h-[36px] items-center justify-center gap-2 p-2 border rounded-lg"
         >
-          لطفا شهر خو را انتخاب نمایید
+          لطفا شهر خود را انتخاب نمایید
           <Image
             src="/icon/images.png"
             alt="menu"
@@ -20,9 +20,9 @@ function Navbar() {
         </Link>
       </div>
 
-      <div className="flex justify-center gap-1 text-sm w-[1100px] ">
-        <div className="flex justify-around items-center w-[850px] ">
-          <ul className="flex justify-center  items-center ml-28 h-[40px] w-[760px] gap-1 rounded-lg ">
+      <div className="flex justify-center gap-0  text-sm w-[929px] ">
+        <div className="flex justify-center items-center w-[730px]  ">
+          <ul className="flex justify-center  items-center h-[40px] w-[750px] gap-1 rounded-lg ">
             <li className="flex  gap-2 w-[170px]  items-center justify-center  h-[35px] ">
               در دیجی کالا بفروشید
             </li>
@@ -104,9 +104,7 @@ function Navbar() {
           />
         </div>
       </div>
-     
     </div>
-    
   );
 }
 
