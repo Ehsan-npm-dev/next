@@ -7,7 +7,7 @@ function Navbar() {
       <div className="flex justify-center items-center  w-[240px]   h-[40px] rounded-lg   ">
         <Link
           href=""
-          className=" flex min-w-[240px] max-w-[350px] h-[36px] items-center justify-center gap-2 p-2 border rounded-lg"
+          className=" flex min-w-[290px]  max-w-[380px]  items-center justify-center gap-2 p-2 border rounded-lg text-center"
         >
           لطفا شهر خود را انتخاب نمایید
           <Image
@@ -20,14 +20,14 @@ function Navbar() {
         </Link>
       </div>
 
-      <div className="flex justify-center gap-0  text-sm w-[929px] ">
-        <div className="flex justify-center items-center w-[730px]  ">
-          <ul className="flex justify-center  items-center h-[40px] w-[750px] gap-1 rounded-lg ">
+      <div className="flex justify-center gap-0  text-sm w-[full]  ">
+        <div className="flex justify-center items-center w-[890px]  ">
+          <ul className="flex justify-center  items-center h-[40px] w-[820px] gap-1 rounded-lg ">
             <li className="flex  gap-2 w-[170px]  items-center justify-center  h-[35px] ">
               در دیجی کالا بفروشید
             </li>
-            <li className="flex items-center w-[100px]  p-2 rounded-md justify-center hover:border-b-red-500 ">
-              <Link href="" className="text-sm  w-[100px] justify-center ">
+            <li className="flex items-center w-[120px]  p-2 rounded-md justify-center hover:border-b-red-500 ">
+              <Link href="" className="text-sm  w-[120px] justify-center ">
                 سوالی دارید؟{" "}
               </Link>
             </li>
@@ -76,7 +76,7 @@ function Navbar() {
               </Link>
             </li>
 
-            <li className="flex items-center justify-center gap-2  w-[160px] h-[20px]">
+            <li className="flex items-center justify-center gap-2  w-[180px] h-[20px]">
               <Link
                 href=""
                 className="flex justify-center border text-sm rounded-lg hover:border-b-red-400 p-2 w-[full] h-[35px] items-center gap-1"
@@ -93,7 +93,7 @@ function Navbar() {
           </ul>
         </div>
 
-        <div className="flex justify-center gap-1 items-center ml-[40px] w-[130px]">
+        <div className="flex justify-center gap-1 items-center  w-[140px]">
           |<h3 className="">دسته بندی کالاها</h3>
           <Image
             src="/icon/menu.jpg"
