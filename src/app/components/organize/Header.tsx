@@ -4,6 +4,7 @@ import Link from "next/link";
 function Header() {
   return (
     <section className="flex w-[full] justify-around items-center ">
+
       <div className="flex justify-evenly  items-center w-[1600px] gap-10 h-16 p-2 ">
         <div className=" gap-3 p-2  flex justify-around items-center w-[220px] h-[50px] bg-white rounded-md">
           <Image src="/icon/cart.png" alt="Log" width={25} height={25} />|

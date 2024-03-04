@@ -8,6 +8,7 @@ export const cards = [
         alt="poster"
         width={20}
         height={20}
+        className="w-10"
       />
     ),
     title: "دیحی کالا چت",
@@ -18,7 +19,7 @@ export const cards = [
         src="/img/vam.png"
         alt="poster"
         width={20}
-        height={20}
+        height={20} className="w-10"
       />
     ),
     title: "دریافت وام",
@@ -30,6 +31,7 @@ export const cards = [
         alt="poster"
         width={20}
         height={20}
+        className="w-10"
       />
     ),
     title: " کالا برگ الکترونیکی ",
@@ -41,9 +43,22 @@ export const cards = [
         alt="poster"
         width={20}
         height={20}
+        className="w-10"
       />
     ),
     title: "دیحی کالا چت",
+  },
+  {
+    icon: (
+      <Image
+        src="/img/vam.png"
+        alt="poster"
+        width={20}
+        height={20}
+        className="w-10"
+      />
+    ),
+    title: "ارتباط با ما"
   },
   {
     icon: (
@@ -52,17 +67,7 @@ export const cards = [
         alt="poster"
         width={20}
         height={20}
-      />
-    ),
-    title: "دیحی کالا چت",
-  },
-  {
-    icon: (
-      <Image
-        src="/menu/787a330f980d0cb7583d5d3316a868757535ea79_1708970899.png"
-        alt="poster"
-        width={20}
-        height={20}
+        className="w-10"
       />
     ),
     title: "دیحی کالا چت",

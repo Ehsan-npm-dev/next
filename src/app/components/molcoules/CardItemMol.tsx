@@ -8,9 +8,11 @@ type Props = {
 
 function CardItemMol({ icon, title, url }: Props) {
   return (
-    <div className="flex flex-col items-center  rounded-lg  gap-2 justify-center p-2 ">
-      <h3>{icon}</h3>
-      <p>{title}</p>
+    <div className="flex flex-col items-center  rounded-lg  gap-1 justify-center p-2 ">
+      <h3 className="flex justify-center ">{icon}</h3>
+      <p className="w-[200px]  items-center justify-center flex p-2 ">
+        {title}
+      </p>
     </div>
   );
 }
