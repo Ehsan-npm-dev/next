@@ -2,8 +2,9 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 function Header() {
+  
   return (
-    <section className="flex w-[full] justify-around items-center ">
+    <section className="flex w-[full] justify-around items-center " >
 
       <div className="flex justify-evenly  items-center w-[1600px] gap-10 h-16 p-2 ">
         <div className=" gap-3 p-2  flex justify-around items-center w-[220px] h-[50px] bg-white rounded-md">
@@ -26,7 +27,7 @@ function Header() {
               type="text"
               placeholder="جستجو"
               autoComplete="off"
-              className=" rounded-md  w-[500px] bg-slate-100  text-black p-2  flex "
+              className=" rounded-md dir-  w-[500px] bg-slate-100  text-black p-2  flex "
             />
           </form>
 
