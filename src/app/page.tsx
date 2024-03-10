@@ -6,7 +6,8 @@ import Shop from "./components/organize/Shop";
 import Order from "./components/organize/Order";
 export default function Home() {
   return (
-    <div className="flex flex-col w-full pt-6 border  border-t-red-300 h-[auto] justify-center gap-5">
+    <div className="flex flex-col w-full  pt-6 border  border-t-red-300 h-[auto] justify-center gap-5">
+      <div className="flex flex-col justify-center items-center w-[]">
       <Header />
       <Navbar />
       <hr />
@@ -15,6 +16,7 @@ export default function Home() {
 
       <Shop />
       <Order />
+      </div>
     </div>
   );
 }
