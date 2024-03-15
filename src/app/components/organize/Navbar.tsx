@@ -21,28 +21,28 @@ function Navbar() {
       </div>
 
       <div className="flex justify-center gap-0  text-sm w-[full]  ">
-        <div className="flex justify-center items-center w-[890px]  ">
+        <div className="flex justify-center items-center w-[898px]  ">
           <ul className="flex justify-center  items-center h-[40px] w-[820px] gap-1 rounded-lg ">
-            <li className="flex  gap-2 w-[170px]  items-center justify-center  h-[35px] ">
+            <li className="flex hover:border p-2 rounded-lg hover:bg-blue-700 w-[200px] hover:text-white  gap-2   items-center justify-center  h-[35px] ">
               در دیجی کالا بفروشید
             </li>
-            <li className="flex items-center w-[120px]  p-2 rounded-md justify-center hover:border-b-red-500 ">
-              <Link href="" className="text-sm  w-[120px] justify-center ">
+            <li className="flex items-center w-[150px]   rounded-md justify-center hover:border-b-red-500 ">
+              <Link href="" className="text-sm hover:border  rounded-lg hover:bg-blue-700 hover:text-white  w-[120px] p-2 justify-center ">
                 سوالی دارید؟{" "}
               </Link>
             </li>
-            <li className="flex items-center justify-center gap-2 w-[180px]">
+            <li className="flex items-center hover:border-b-red-700 justify-center gap-2 w-[190px]">
               <Link
                 href=""
-                className="flex justify-center border rounded-lg hover:border-b-red-400 bg-white text-sm w-[full] h-[35px] p-2 items-center gap-1"
+                className="flex justify-center border rounded-lg hover:border-b-red-400 bg-white text-sm w-[140px] h-[35px] p-2 items-center gap-1"
               >
                 پرفروش ترین ها
                 <Image
                   src="/icon/celler.jpg"
                   alt="menu"
-                  width={18}
+                  width={20}
                   height={18}
-                  className="rounded-2xl"
+                  className="rounded-3xl w-3  "
                 />
               </Link>
             </li>

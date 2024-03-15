@@ -10,7 +10,7 @@ function Main() {
           alt="background"
           width={300}
           height={100}
-          className="flex justify-center items-center  w-[1500px] "
+          className="flex justify-center items-center border hover:border-blue-400 rounded-lg border-black shadow-lg w-[1300px] "
         />
 
       

@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { title } from "process";
 
 export const cards = [
   {
@@ -73,3 +74,49 @@ export const cards = [
     title: "دیحی کالا چت",
   },
 ];
+
+
+
+
+
+export const lists = [
+
+  {
+
+    img: <Image src="/buy/dee082825fa27bf216cc8cf2153745062c29e62d_1709022430.png" alt="img" width={70} height={40} />
+    ,
+    title: "اسباب بازی کودک و تولد"
+
+
+
+  },
+
+  {
+
+    img: <Image src="/buy/dee082825fa27bf216cc8cf2153745062c29e62d_1709022430.png" alt="img" width={70} height={40} />
+    ,
+    title:"مد و پوشاک"
+
+
+
+  },
+  {
+
+    img: <Image src="/buy/dee082825fa27bf216cc8cf2153745062c29e62d_1709022430.png" alt="img" width={70} height={40} />
+    ,
+    title: "اسباب بازی کودک و تولد"
+
+
+
+  },{
+
+    img: <Image src="/buy/dee082825fa27bf216cc8cf2153745062c29e62d_1709022430.png" alt="img" width={70} height={40} />
+    ,
+    title:"کارت هدیه"
+
+
+
+  }
+]
+
+
