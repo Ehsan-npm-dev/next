@@ -5,7 +5,7 @@ import Link from "next/link";
 function List() {
   return (
     <>
-      <div className="bg-gray-200 shadow-lg  w-[1300px] items-center border shadow-xl rounded-lg p-2 h-[100px] flex justify-between">
+      <div className="bg-gray-200  w-[1400px] items-center border shadow-xl rounded-lg p-2 h-[100px] flex justify-around">
         <div className="flex justify-center gap-3 items-center">
           <button className="flex justify-center font-bold bg-white text-xl p-2 rounded-xl w-[220px]  text-green-500 hover:text-black items-center">
             <span className="flex justify-center items-center ">

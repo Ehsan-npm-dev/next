@@ -119,4 +119,20 @@ export const lists = [
   }
 ]
 
+export const posts = [
+  {
+    img:<Image src="/footer/express-delivery.svg"alt="experss" width={40} height={40}/>,
+    
+    title:"امکان تحویل اکسپرس"
+  },
+
+  {
+    img:<Image src="/footer/original-products.svg" alt="experss" width={40} height={40}/>,
+    title:"ضمانت اصل بودن"
+  },
+  {
+    img:<Image src="/footer/cash-on-delivery.svg" alt="support" width={40} height={40} />,
+    title:"پرداخت نقد"
+  }
+]
 

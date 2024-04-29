@@ -8,22 +8,29 @@ import List from "./components/organize/List";
 import Pic from "./components/organize/Pic";
 import Buy from "./components/organize/Buy";
 import Service from "./components/organize/Service";
+import Tick from "./components/organize/Tick";
+import { Children } from "react";
+import Layout from "./components/template/Layout";
+import Footer from "./components/organize/Footer";
 export default function Home() {
   return (
-    <div className="flex flex-col pt-4 border  border-t-red-300 h-auto justify-center gap-5">
+    <div className="flex flex-col pt-4   border-t-red-300 h-auto justify-center gap-5">
       <div className="flex flex-col justify-center rounded-md items-center h-auto pb-10">
-        <Header />
-        <Navbar />
+        <Layout>
+          <Navbar />
 
-        <Link />
-        <Main />
+          <Link />
+          <Main />
 
-        <Shop />
-        <Order />
-        <List />
-        <Service />
-        <Pic />
-        <Buy />
+          <Shop />
+          <Order />
+          <List />
+          <Service />
+          <Pic />
+          <Buy />
+          <Tick />
+          <Footer />
+        </Layout>
       </div>
     </div>
   );
